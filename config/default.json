@@ -1,0 +1,11 @@
+{
+    "database": {
+      "mongoURI": "mongodb://localhost:27017/linktr_clone"
+    },
+    "jwtSecret": "your_jwt_secret_key",
+    "tokenExpiration": "1h",
+    "referralSettings": {
+      "referralBonusCredits": 10,
+      "maxReferralsPerUser": 50
+    }
+  }
